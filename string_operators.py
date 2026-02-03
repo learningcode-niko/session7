@@ -8,4 +8,17 @@ print(s1+" "+s2)
 print(3 * s2) # nsync song
 print(s1+" "*10+s2)
 
+# we can iterate over a string using for
+for c in s1:
+    print(c)
+
+i=0
+while i<len(s1):
+    print(s1[i])
+    i=i+1
+
+s_new = ""
+for c in s1:
+    s_new = s_new + c*4
+print(s_new)
 
